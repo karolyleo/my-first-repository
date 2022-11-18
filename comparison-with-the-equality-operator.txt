@@ -1,0 +1,6 @@
+// Setup
+let testEqual = num => {
+  return num == 12 ? "Equal" : "Not Equal";
+}
+
+testEqual(10);
