@@ -1,2 +1,2 @@
-# my-first-repository
-I don't want to put a description.
+# first-repository-for-useful-code
+For safe keeping any interesting problem-solution questions
