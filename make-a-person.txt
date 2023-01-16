@@ -9,7 +9,7 @@ const Person = function(firstAndLast) {
   this.setLastName = (input) => result[1]=input;
   this.setFullName = (name) => result = name.split(' ');
 };
-
+// new Person(Name) //input name as a string
 
 const bob = new Person('Bob Ross');
 // bob.setFirstName('Harry')
