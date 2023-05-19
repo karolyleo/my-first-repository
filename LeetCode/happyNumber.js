@@ -22,6 +22,7 @@
 //
 // Input: n = 2
 // Output: false
+
 var isHappy = function(n, count = 0) {
     if(n===1){
         return true
