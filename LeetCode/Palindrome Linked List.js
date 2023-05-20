@@ -1,5 +1,5 @@
 var isPalindrome = function(head) {
-    let mid = findMiddle(head)   // find the middle of the linked list
+    let mid = findMiddle(head);   // find the middle of the linked list
     let last = reverse(mid)      // reverse the second half of the linked list
     let first = head              // set first pointer to the start of the linked list
     while(first && last) {       // iterate through both first and last pointers
