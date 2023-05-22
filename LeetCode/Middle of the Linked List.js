@@ -10,7 +10,8 @@
 // The number of nodes in the list is in the range [1, 100]. ||  1 <= Node.val <= 100
 "use strict"
 var middleNode = function(head) {
-    let slow = head, fast = head;
+    let slow = head, 
+    fast = head;
     while(fast && fast.next){
         fast= fast.next.next;
         slow= slow.next;
