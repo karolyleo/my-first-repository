@@ -45,7 +45,8 @@ var circularArrayLoop = function(nums) {
         if (traverse(fast)) return true;
 
         visited[slow] = VISITED;        // Mark the current index as visited
-        return false;// Return false
+        return false;
+        // Return false
     }
 };
 
