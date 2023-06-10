@@ -40,5 +40,5 @@ var isHappy = function(n, count = 0) {
     for(let i=0; i<numbers.length;i++){
         sum+= Number(numbers[i]) ** 2;
     }
-    return isHappy(sum, count + 1)
+    return isHappy(sum, count + 1);
 };
