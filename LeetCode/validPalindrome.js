@@ -34,6 +34,6 @@ var validPalindrome = function(string) {
         return true;
     }
 
-    return true
+    return true;
 };
 //25 Jan 2023
