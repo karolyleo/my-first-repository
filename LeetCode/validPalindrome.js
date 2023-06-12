@@ -17,7 +17,7 @@
 // Output: false
 var validPalindrome = function(string) {
     let left = 0
-    right = string.length -1
+    right = string.length -1;
     while(left<right){
         if(string[left]!==string[right]){
             return innerPalindrome(string, left+1,right) || innerPalindrome(string, left, right-1);
