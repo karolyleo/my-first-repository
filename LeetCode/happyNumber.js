@@ -31,7 +31,7 @@ var isHappy = function(n, count = 0) {
     }
 
     if(count>20){
-        return false
+        return false;
     }
 
     const numbers = String(n).split('');
