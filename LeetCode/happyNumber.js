@@ -27,7 +27,7 @@ var isHappy = function(n, count = 0) {
     if(n===1){
         return true
     } else if(n<=3){
-        return false
+        return false;
     }
 
     if(count>20){
