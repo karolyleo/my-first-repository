@@ -1,7 +1,7 @@
 # Practice Repository
 
 ---
-Welcome to the Practice Repository! This repository is dedicated to storing and reviewing various coding challenges from platforms such as Leetcode and freeCodeCamp. Here, you will find a collection of solved challenges that range from easy to advanced, as well as explanations. ~~for each solution~~
+Welcome to the Practice Repository! This repository is dedicated to storing and reviewing various coding challenges from platforms such as Leetcode and freeCodeCamp. Here, you will find a collection of solved challenges that range from easy to advanced, as well as explanations. ~~for most solutions.~~
 
 ## Features
 
