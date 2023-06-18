@@ -11,7 +11,7 @@ var isPalindrome = function(head) {
 };
 
 function findMiddle(head) {
-    let slow = head               // set slow pointer to the start of the linked list
+    let slow = head;               // set slow pointer to the start of the linked list
     let fast = head               // set fast pointer to the start of the linked list
     while(fast && fast.next) {   // iterate through fast pointer and its next node
         slow = slow.next           // move slow pointer to the next node
