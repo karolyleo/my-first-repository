@@ -22,7 +22,7 @@ var validPalindrome = function(string) {
         if(string[left]!==string[right]){
             return innerPalindrome(string, left+1,right) || innerPalindrome(string, left, right-1);
         }
-        left++
+        left++;
         right--;
     }
 
