@@ -3,7 +3,7 @@ function fearNotLetter(str) {
   let adjustedI=letters.indexOf(str[0])
   for(let i=0;i<str.length;i++){
     if (str[i] !==(letters[adjustedI+i])){
-      return letters[adjustedI+i]
+      return letters[adjustedI+i];
     }
   }
 }
