@@ -53,7 +53,8 @@ var circularArrayLoop = function(nums) {
 export function circularArrayLoopS(nums){
     const visited = Array.from( { length: nums.length } , () => 0 ),
         N = nums.length;
-    let VISITING = 1, VISITED=2;
+    let VISITING = 1, 
+    VISITED=2;
     for(let i = 0 ; i < nums.length; i++ ) {
         if ( visited[i] === VISITED ) continue;
         if ( traverse(i) ) return true;
