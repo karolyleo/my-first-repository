@@ -21,6 +21,7 @@ var hasCycle = function(head) {
     while(fast && fast.next){
         head = head.next;
         fast = fast.next.next;
+        
         if(fast===head)return true;
     }
     return false;
