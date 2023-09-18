@@ -15,6 +15,7 @@ public class Solution {
         ListNode result = new ListNode();
         ListNode head = result;
         int sum = 0;
+        
         while (l1 != null || l2 != null || sum > 0) // to keep running if we hava a value in l1, l2 or carry
         {
             // two if statments because l1 and l2 can be of different sizes
@@ -23,7 +24,7 @@ public class Solution {
                 sum += l1.val;
                 l1 = l1.next;
             }
-
+            
             if (l2 != null)
             {
                 sum += l2.val;
