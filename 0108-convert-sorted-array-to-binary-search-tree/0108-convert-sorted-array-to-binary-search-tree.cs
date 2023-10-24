@@ -19,7 +19,9 @@ public class Solution {
         {
             if(left > right) return null;
             int mid = left + (right - left) / 2;
-            return new TreeNode(nums[mid], CreateNode(left, mid - 1), CreateNode(mid + 1, right));
+            return new TreeNode(nums[mid], 
+                CreateNode(left, mid - 1), 
+                CreateNode(mid + 1, right));
         }
     }
 }
