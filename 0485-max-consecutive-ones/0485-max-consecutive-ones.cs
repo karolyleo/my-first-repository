@@ -1,11 +1,10 @@
 public class Solution {
     public int FindMaxConsecutiveOnes(int[] nums) {
-        int result = 0,
-            count = 0;
-        foreach(int num in nums) 
+        int result = 0, count = 0;
+        for(int i = 0; i < nums.Length; i++)
         {
-            if(num == 1) count++;
-            if(num == 0) count = 0;
+            if(nums[i] == 1) count++;
+            if(nums[i] == 0) count = 0;
             if(count >= result) result = count;
         }
         return result;
